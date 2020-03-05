@@ -4,9 +4,9 @@ import { useSelector } from "react-redux";
 import NavBar from "components/NavBar";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import TopBar from "components/Topbar/TopBar";
-// import Error401 from "routes/Error401";
+import Error401 from "./Error401";
 import Content from "components/Content";
-import routes from "../../routes";
+import routes from "./routes";
 import intersection from "lodash.intersection";
 import { Switch, Route } from "react-router-dom";
 
@@ -72,14 +72,14 @@ export default function MiniDrawer() {
       <Content fullscreen>
         <div className={classes.toolbar} />
         <Switch>
-          {filteredRoutes.map(route => (
+          {routes.map(route => (
             <Route
               key={route.path}
               path={route.path}
               component={route.component}
             />
           ))}
-          {/* <Route component={Error401} /> */}
+          <Route component={Error401} />
         </Switch>
       </Content>
     </div>

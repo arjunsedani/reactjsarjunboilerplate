@@ -1,13 +1,5 @@
-import ErrorIcon from "@material-ui/icons/ErrorOutline";
-import FolderIcon from "@material-ui/icons/FolderOutlined";
-import LockOpenIcon from "@material-ui/icons/LockOpenOutlined";
-import SettingsIcon from "@material-ui/icons/SettingsOutlined";
-import PersonAddIcon from '@material-ui/icons/PersonAddOutlined';
 import LocalHospitalOutlinedIcon from "@material-ui/icons/LocalHospitalOutlined";
 import AccessibleForwardSharpIcon from "@material-ui/icons/AccessibleForwardSharp";
-import AccessibleSharpIcon from "@material-ui/icons/AccessibleSharp";
-import DataUsageSharpIcon from "@material-ui/icons/DataUsageSharp";
-import TimelapseSharpIcon from "@material-ui/icons/TimelapseSharp";
 
 export default [
   {

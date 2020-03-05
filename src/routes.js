@@ -2,7 +2,7 @@ import React from "react";
 import { Redirect } from "react-router-dom";
 import Home from "routes/Portal/Home";
 import Login from "routes/Login/index";
-import Page1 from "routes/Portal/index";
+import Module1 from "routes/Portal/Module1";
 
 
 const routes = [
@@ -20,7 +20,7 @@ const routes = [
   {
     path: "/error401",
     exact: true,
-    component: Page1
+    component: Module1
   },
   {
     route: "*",
@@ -29,13 +29,13 @@ const routes = [
       {
         path: "/loginsuccess",
         exact: true,
-        component: () => Page1
+        component: () => Module1
       },
       {
         path: "/listingpage",
         exact: true,
-        component: Page1
-      },
+        component: Module1
+      }
     ]
   }
 ];
