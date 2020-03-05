@@ -1,8 +1,6 @@
 // @flow
 /**
  * @file
- * @author Arjun Sedani <ArjunBhavesh.Sedani@in.bosch.com>
- * 09/18/2019
  */
 import styled from 'styled-components';
 

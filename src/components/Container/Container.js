@@ -28,15 +28,6 @@ const titleContainer = props =>
     background: #3da98b;
   `;
 
-const clinicAnalyticsTitle = props =>
-  props.clinicAnalyticsTitle &&
-  css`
-    width: 100%;
-    max-width: 1682px;
-    height: 70px;
-    background: #3da98b;
-  `;
-
 const fullscreen = props =>
   props.fullscreen &&
   css`
@@ -49,7 +40,7 @@ const Container = styled.div`
   margin: 0 auto;
   flex: 1;
 
-  ${small} ${large} ${xlarge} ${fullscreen} ${titleContainer} ${clinicAnalyticsTitle};
+  ${small} ${large} ${xlarge} ${fullscreen} ${titleContainer};
 `;
 
 export default Container;

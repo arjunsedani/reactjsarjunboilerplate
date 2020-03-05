@@ -10,6 +10,7 @@
     "clsx": "^1.1.0",
     "connected-react-router": "^6.7.0",
     "history": "^4.10.1",
+    "lodash.intersection": "^4.4.0",
     "polished": "^3.4.4",
     "prop-types": "^15.7.2",
     "react": "^16.13.0",
@@ -21,7 +22,8 @@
     "redux": "^4.0.5",
     "redux-persist": "^6.0.0",
     "redux-thunk": "^2.3.0",
-    "styled-components": "^5.0.1"
+    "styled-components": "^5.0.1",
+    "validate.js": "^0.13.1"
   },
   "scripts": {
     "start": "react-scripts start",

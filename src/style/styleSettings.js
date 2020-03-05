@@ -33,8 +33,8 @@ const unSortedColors = {
   NEGATIVE_TEXT: "#d44204",
   NOTIFICATION_RED: "#ed0235",
   WALLMART_BLUE: "#0072CE",
-  HPS_BLUE: "#101068",
-  HPS_TEAL: "#3da98b"
+  CLASSY_BLUE: "#101068",
+  CLASSY_TEAL: "#3da98b"
 };
 
 export const colors = Object.keys(unSortedColors)

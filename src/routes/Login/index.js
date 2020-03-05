@@ -8,6 +8,7 @@ import {
 } from "@material-ui/core";
 import Container from 'components/Container';
 import Fullscreen from 'components/Fullscreen';
+import LoginForm from 'components/LoginForm';
 import LockIcon from "@material-ui/icons/Lock";
 import { NavLink as RouterLink } from "react-router-dom";
 import gradients from "util/gradients";
@@ -96,6 +97,7 @@ const Login = () => {
               <Typography variant="subtitle2">
                 Sign in on the internal platform
               </Typography>
+              <LoginForm className={classes.loginForm} />
               <Divider className={classes.divider} />
               <Link
                 align="center"

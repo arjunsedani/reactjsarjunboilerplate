@@ -12,7 +12,7 @@ const App = () => {
     primary: primaryColor,
     secondary,
     tertiary,
-    hpsBlue,
+    classyBlue,
     error,
     selectedgray
   } = {
@@ -21,7 +21,7 @@ const App = () => {
     tertiary: colors.TERTIARY,
     success: colors.GREEN_REST,
     error: colors.ERROR_RED,
-    hpsBlue: colors.HPS_BLUE,
+    classyBlue: colors.CLASSY_BLUE,
     selectedgray: colors.BACKGROUND_GREY
   };
   const linksColor = colors.PRIMARY_LINKS;
@@ -51,7 +51,7 @@ const App = () => {
       }
     },
     primaryColor,
-    hpsBlue,
+    classyBlue,
     secondaryTextColor: linksColor,
     iconColor: primaryColor,
     fontColor: darkTextColor
